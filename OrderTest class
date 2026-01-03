@@ -1,0 +1,29 @@
+package com.tka.jan1;
+
+public class OrderTest {
+	public static void main(String[] args) {
+
+        Order o1  = new Order(1, "Veg Biryani", 180, "Spice Hub", 1, "Delivered");
+        Order o2  = new Order(2, "Chicken Burger", 150, "Burger King", 2, "Delivered");
+        Order o3  = new Order(3, "Pizza", 320, "Domino's", 1, "On the way");
+        Order o4  = new Order(4, "Pav Bhaji", 120, "Shiv Sagar", 1, "Delivered");
+        Order o5  = new Order(5, "Masala Dosa", 90, "Udupi Hotel", 2, "Preparing");
+        Order o6  = new Order(6, "Paneer Tikka", 220, "Barbeque Nation", 1, "Delivered");
+        Order o7  = new Order(7, "Fried Rice", 140, "Chinese Wok", 1, "Delivered");
+        Order o8  = new Order(8, "Sandwich", 80, "Cafe Coffee Day", 2, "Cancelled");
+        Order o9  = new Order(9, "Ice Cream", 60, "Naturals", 3, "Delivered");
+        Order o10 = new Order(10, "Thali", 250, "Aahar", 1, "On the way");
+
+        System.out.println(o1);
+        System.out.println(o2);
+        System.out.println(o3);
+        System.out.println(o4);
+        System.out.println(o5);
+        System.out.println(o6);
+        System.out.println(o7);
+        System.out.println(o8);
+        System.out.println(o9);
+        System.out.println(o10);
+
+}
+}
