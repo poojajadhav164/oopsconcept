@@ -1,0 +1,31 @@
+package com.tka.jan1;
+
+public class SportTest {
+	
+public static void main(String[] args) {
+
+    Sport p1  = new Sport(1, "Rohit Sharma", 45, 6211, 15, "Mumbai Indians");
+    Sport p2  = new Sport(2, "Virat Kohli", 18, 7263, 4, "Royal Challengers Bangalore");
+    Sport p3  = new Sport(3, "MS Dhoni", 7, 5082, 0, "Chennai Super Kings");
+    Sport p4  = new Sport(4, "Hardik Pandya", 33, 2309, 53, "Mumbai Indians");
+    Sport p5  = new Sport(5, "Jasprit Bumrah", 93, 56, 145, "Mumbai Indians");
+    Sport p6  = new Sport(6, "KL Rahul", 1, 4163, 0, "Lucknow Super Giants");
+    Sport p7  = new Sport(7, "Ravindra Jadeja", 8, 2692, 152, "Chennai Super Kings");
+    Sport p8  = new Sport(8, "Shubman Gill", 77, 2790, 0, "Gujarat Titans");
+     Sport p9  = new Sport(9, "Shreyas", 19, 444, 139, "Punjab kings");
+     Sport p10 = new Sport(10, "Suryakumar Yadav", 63, 3249, 0, "Mumbai Indians");
+     Sport p11 = new Sport(11, "Yuzvendra Chahal", 3, 27, 187, "punjab kings");
+
+    System.out.println(p1);
+    System.out.println(p2);
+    System.out.println(p3);
+    System.out.println(p4);
+    System.out.println(p5);
+    System.out.println(p6);
+    System.out.println(p7);
+    System.out.println(p8);
+    System.out.println(p9);
+    System.out.println(p10);
+    System.out.println(p11);
+}
+}
